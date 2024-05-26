@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="orangegirl.png">
+    <title>ClemenDine - Menu</title>
+    <style>
+        body{
+            background-color: rgb(255, 251, 238);
+        }
+        ul{
+             list-style-type: none;
+             margin: 0;
+             padding-left: 0px;
+             overflow: hidden;
+             background-color: #94A661;
+             width: 100%;
+         }
+         li{
+             float: left;
+         }
+         li a{
+             display: block;
+             color: #FFC46C;
+             text-align: center;
+             padding: 50px 50px;
+             text-decoration: none;
+             font-family: Trebuchet MS;
+             font-weight: bolder;
+             font-size: x-large;
+         }
+
+         li a:hover{
+             background-color: #1F3521;
+         }
+        #pic1{
+            border-style: solid;
+            border-width: 4px;
+            border-color: #FFC46C;
+        }
+        #pic2{
+            border-style: solid;
+            border-width: 4px;
+            border-color: #ACBD5E;
+        }
+        #title{
+            font-family: Trebuchet MS;
+            font-size: 72px;
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+        .columns{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .columnitem{
+            flex: 0 0 calc(6% - 20px);
+            margin: 4px;
+        }
+    </style>
+</head>
+<ul id="ul">
+    <li><a href="https://darurin.github.io/ClemenDineHome/"><img src="orangegirl.png" width="29" height="auto"></a></li>
+    <li><a href="https://darurin.github.io/ClemenDineHome/">HOME</a></li>
+    <li><a href="https://darurin.github.io/ClemenDineMenu/">MENU</a></li>
+    <li><a href="https://darurin.github.io/ClemenDineAbout/">ABOUT</a></li>
+  </ul>
+<body>
+    <br><br><br><br>
+    <div class="columns">
+        <div class="columnitem">
+            <a href="https://darurin.github.io/ClemenDineDishes/"><img id="pic1" src="EASY Orange-Glazed Spatchcock Chicken Recipe — Be Greedy Eats _ Where Food Meets Comfort.jpg" width="300" height="400"></a>
+        </div>
+        <div class="columnitem">
+            <a href="https://darurin.github.io/ClemenDineDesserts/"><img id="pic2" src="Orangen & Schokolade Cheesecake _ Bake to the roots.png" width="300" height="400"></a>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="columnitem">
+            <a href="https://darurin.github.io/ClemenDineDishes/">
+                <p id="title">
+                    DISHES
+                </p>
+            </a>
+        </div>
+        <div class="columnitem">
+            <a href="https://darurin.github.io/ClemenDineDesserts/">
+                <p id="title">
+                    DESSERTS
+                </p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
